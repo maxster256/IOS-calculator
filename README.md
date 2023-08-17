@@ -10,7 +10,7 @@ Projekt składa się z kilku klas:
   odpowiedzialna za wykonywanie wszystkich przewidzianych funkcji matematycznych
 <br>
 W projekcie uwzględnione są również następujące pliki:
-* hello-view.fxml
+* Hello-view.fxml
   wewnątrz którego znajdują się przyciski kalkulatora
-* scratch.css
+* Scratch.css
   z całą wartwą wizualną aplikacji. Wygląd kalkulatora wzorowany jest na kalkulatorze w systemie iOS.
