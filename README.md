@@ -10,6 +10,7 @@ Projekt składa się z kilku klas:
   odpowiedzialna za wykonywanie wszystkich przewidzianych funkcji matematycznych
 <br>
 W projekcie uwzględnione są również następujące pliki:
+<br>
 * hello-view.fxml
   wewnątrz którego znajdują się przyciski kalkulatora
 * scratch.css
