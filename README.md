@@ -8,6 +8,7 @@ Projekt składa się z kilku klas:
   odpowiedzialna za utworzenie aplikacji
 * HelloController
   odpowiedzialna za wykonywanie wszystkich przewidzianych funkcji matematycznych
+<br>
 W projekcie uwzględnione są również następujące pliki:
 * hello-view.fxml
   wewnątrz którego znajdują się przyciski kalkulatora
