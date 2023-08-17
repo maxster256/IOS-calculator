@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<GridPane fx:controller="com.example.calc.HelloController" xmlns:fx="http://javafx.com/fxml"
+          alignment="CENTER">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10"/>
+    </padding>
+
+    <stylesheets>
+        <URL value="@scratch.css"/>
+    </stylesheets>
+
+    <Label fx:id="welcomeText"
+            GridPane.columnIndex="0" GridPane.rowIndex="0"
+            GridPane.columnSpan="4"/>
+
+    <Button text="0" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <Button text="1" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <Button text="2" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <Button text="3" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="2" GridPane.rowIndex="3"/>
+    <Button text="4" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Button text="5" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Button text="6" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+    <Button text="7" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button text="8" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button text="9" onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+
+    <Button text="." onAction="#clicked" styleClass="btn-1"
+            GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <Button text="+" onAction="#sign" styleClass="btn-2"
+            GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+    <Button text="-" onAction="#sign" styleClass="btn-2"
+            GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+    <Button text="x" onAction="#sign" styleClass="btn-2"
+            GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+    <Button text=":" onAction="#sign" styleClass="btn-2"
+            GridPane.columnIndex="3" GridPane.rowIndex="4"/>
+    <Button text="=" onAction="#can_calculate" styleClass="btn-2"
+            GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+
+</GridPane>

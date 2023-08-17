@@ -1,0 +1,23 @@
+*{
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+.label {
+    -fx-font-size: 75;
+    -fx-min-width: 400;
+    -fx-min-height: 100;
+}
+.button {
+    -fx-font-size: 50;
+    -fx-min-width: 100;
+    -fx-min-height: 100;
+    -fx-shape: "M 50 50 m -50, 0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0"; /* circle */
+}
+.btn-1 {
+    -fx-background-color: #2A2A2A;
+}
+.btn-2 {
+    -fx-background-color: orange;
+}
