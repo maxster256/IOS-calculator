@@ -11,9 +11,6 @@ Projekt składa się z kilku klas:
 <br>
 W projekcie uwzględnione są również następujące pliki:
 
-* App
-  odpowiedzialna za włączenie programu
-
 * hello-view fxml
   wewnątrz którego znajdują się przyciski kalkulatora
 * scratch css
