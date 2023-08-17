@@ -14,4 +14,4 @@ W projekcie uwzględnione są również następujące pliki:
   wewnątrz którego znajdują się przyciski kalkulatora
 * scratch.css
   z całą warstwą wizualną aplikacji. Wygląd kalkulatora wzorowany jest na kalkulatorze w sytemie iOS.
-
+* 
